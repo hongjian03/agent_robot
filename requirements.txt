@@ -1,0 +1,15 @@
+langchain==0.3.20
+streamlit==1.42.0
+pandas==2.2.3
+requests
+openpyxl
+xlsxwriter
+langchain-openai
+pysqlite3-binary
+chromadb
+langchain-community
+langchain-core
+python-docx
+PyMuPDF
+PyPDF2
+supabase
