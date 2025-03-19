@@ -738,7 +738,7 @@ def verify_access():
                 st.session_state.auth_attempts = 0
                 st.success("验证成功！正在进入应用...")
                 time.sleep(1)
-                st.experimental_rerun()
+                st.rerun()
                 return True
             else:
                 st.session_state.auth_attempts += 1
